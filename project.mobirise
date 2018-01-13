@@ -1,0 +1,898 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#475577",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 41,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#475577!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "height": 128,
+              "alt": "",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">О компании</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials3-2\">Услуги</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-13\" aria-expanded=\"false\">Каталог</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#contacts2-14\" aria-expanded=\"false\">Контакты</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Документация</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-lead": {
+              "color": "#28324e",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/i2-2000x1080.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.1",
+            "overlayColor": "#2b0680",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Бурснаб",
+          "text": "Основное направление деятельности компании - комплексная поставка промышленного и тд... оборудования предприятиям Деятельность сотрудников направлена на поставку высококачественного оборудования и оказание помощи в решении проблем, которые возникают в процессе развития бизнеса.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Связаться с нами</a>   "
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "&nbsp; Copyright (c)"
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "testimonial": [
+            {
+              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Abanoub S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Suffian A.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Jhollman C.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials3-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/slide-2000x1500.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "Что мы предлогаем",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-13",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2-2000x1000.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#222",
+            "columns": "6",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/tool-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Keys.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Ключи и Зипы",
+          "subtitle1": "",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/zapor-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Zapornoe_cont.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Запорная арматура",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/poleuretan-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Poliuretan.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Поулеритан",
+          "subtitle3": "Google has a highly exhaustive&nbsp;",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you tose them on&nbsp;",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brs-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Брс",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/pojarnoe-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "Пожарное",
+          "subtitle5": "Choose from the lge selection of&nbsp;",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumb<br>otrons, hero images, parallax scrolling, cky&nbsp;",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/stropy-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title6": "Такелаж, стропы, рти",
+          "subtitle6": "Don't limit yourself to just one&nbsp;",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon SGoogle Drive, Github. Don't limit yourself to&nbsp;<br><br>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_styles": {
+            "H4": {
+              "color": "#efefef"
+            },
+            "H5": {
+              "color": "#efefef"
+            },
+            "P": {
+              "color": "#efefef"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-14",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/5-2000x1332.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Самара Чернореченская 50 ",
+              "placeId": "ChIJ7WB3v4geZkERL791tN4RUmI",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>Киевская<br><br><br>\n<strong>Contacts</strong><br><strong><br></strong><strong><br></strong>Email: hapinas@yandex.ru<br>\nТелефоны:<br>8 927 207 28 89<br>Хапин Александр&nbsp;<br><br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a class=\"text-white\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>"
+        }
+      ]
+    },
+    "Zapornoe_cont.html": {
+      "settings": {
+        "title": "Каталог продукции",
+        "meta_descr": "Каталог продукции",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#475577!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-q",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "height": 128,
+              "alt": "Бурснаб",
+              "link": "фуаыуаы",
+              "title": "Бурснаб2",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">О компании</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials3-2\">Услуги</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-13\" aria-expanded=\"false\">Каталог</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#contacts2-14\" aria-expanded=\"false\">Контакты</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Документация</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "&nbsp; Copyright (c)"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_styles": {
+            "P": {
+              "font-size": "14px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "text-align": "left"
+            },
+            "BLOCKQUOTE": {
+              "font-size": "12px"
+            },
+            "PRE": {
+              "font-size": "10px"
+            }
+          },
+          "_anchor": "content7-s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text1": "<p>Бочонок 15 гост 6357-81&nbsp;</p><p>Бочонок 20 гост 6357-81&nbsp;</p><p>Бочонок 25 гост 6357-81&nbsp;</p><p><br></p><p>Бочонок 15 гост 6357-81</p><p>Бочонок 20 гост 6357-81</p><p>Бочонок 25 гост 6357-81</p><p>Бочонок 32 гост 6357-81</p><p><br></p><p><br></p><p>Вентиль 15б1п Ду15 Ру16 муфтовое</p><p>Вентиль 15б1п Ду20 Ру16 муфтовое</p><p>Вентиль 15кч18п Ду15</p><p>Вентиль 15кч18п Ду20&nbsp;</p><p>Вентиль 15кч18п Ду50 Ру16 до 225гр. муфтовый</p><p>Вентиль 15кч19п Ду25&nbsp;</p><p>Вентиль 15кч19п Ду25 Ру16 фланцевый</p><p>Вентиль 15кч19п Ду32</p><p>Вентиль 15кч19п Ду32 Ру16 фланцевый</p><p>Вентиль 15кч19п Ду50&nbsp;</p><p>Вентиль 15ч9п/19п ДУ25 РУ16 до 200гр</p><p>Вентиль аналог 15кч18п 15 Ci</p><p>Вентиль аналог 15кч18п 25 Ci</p><p>Вентиль аналог 15кч18п 32 Ci</p><p>Вентиль аналог 15кч18п 50 Ci</p><p>Вентиль аналог 15кч19п 25 Ci</p><p>Вентиль аналог 15кч19п 32 Ci</p><p>Вентиль аналог 15кч19п 50 Ci</p><p>Вентиль ВПЭМ 5*350 ХЛ вн.К1/2 вн.М20*1,5</p><p>Вентиль ВПЭМ 5*350 ХЛ нар. М20*1,5 вн. М20*1,5</p><p>Вентиль-аналог 15кч19п 32&nbsp;</p><p><br></p><p>Задвижка 30с41нж Ду150 Ру16&nbsp;</p><p>Задвижка 30с41нж Ду250 Ру16&nbsp;</p><p>Задвижка 30ч6бр Ду100 Ру 16</p><p>Задвижка 30ч6бр Ду50 Ру16 (ЛМЗ)</p><p>Задвижка 30ч6бр Ду50 Ру16&nbsp;</p><p>Задвижка 31(30)ч6бр Ду100&nbsp;</p><p>Задвижка 3МС 65х10 с КОФ \"Корвет\"</p><p>Задвижка 3МС 65х210 с КОФ \"Корвет\"</p><p>Задвижка аналог 30с41нж 150 Ci</p><p>Задвижка аналог 30с41нж 50 Ci</p><p>Задвижка аналог 30с41нж 80 Ci</p><p>Задвижка аналог30с41 нж 100 Ci</p><p>Задвижка ЗМС65х21 с КОФ КОРВЕТ&nbsp;</p><p>Задвижка ЗПРМ-100х40 ХЛ с БС 180-140х20/2 ХЛ</p><p>Задвижка стальная Ду100 Ру16&nbsp;</p><p>Задвижка стальная Ду150 Ру16&nbsp;</p><p>Задвижка чугунная 30ч6бр Ду100 Ру16</p><p><br></p><p>Клапан запорный (вентиль) 15Б1п 15 Ci</p><p>Клапан запорный (вентиль) 15Б1п 25 Ci</p><p>Клапан запорный (вентиль) 15Б3р 15Сi</p><p>Клапан запорный (вентиль) 15Б3р 20Сi</p><p>Клапан запорный угловой STI 1/2\"</p><p>Клапан игольчатый под манометр со стяжной муфтой 15с54бкМ М20х1,5 (В)/М20х1,5 (Н) Ду15мм, Ру16МПа</p><p>Клапан обр.пруж. STI 25</p><p>Клапан обратный дисковый Ду25 Ру40 GENEBRE Италия</p><p>Клапан отсечной ЗСК-15&nbsp;</p><p>Клапан отсечной ЗСК-15</p>",
+          "text2": "<p><span style=\"line-height: 1.5;\">Дроссель регулируемый ДР 65x210с КОФ \"Корвет\"</span><br></p><p><br></p><p><br></p><p><br></p><p>Кран 11Б27п1 ДУ20 РУ16 рычаг&nbsp;</p><p>Кран 11Б27п1 ДУ25 РУ16 рычаг&nbsp;</p><p>Кран 11Б27п1 ДУ32 РУ16 рычаг&nbsp;</p><p>Кран 11Б27п1 ДУ50 РУ16 рычаг&nbsp;</p><p>Кран шар. STI баб. Г/Г 15</p><p>Кран шар. STI рыч. Г/Г 15</p><p>Кран шар. STI рыч. Г/Г 20</p><p>Кран шар. STI рыч. Г/Г 25</p><p>Кран шар. STI рыч. Г/Г 32</p><p>кран шар. STI рыч. Г/Г 50</p><p>Кран шар. STI рыч. Г/Г 65</p><p>Кран шаровой ALSO КШМ Ду50 Ру40</p><p>Кран шаровой ALSO КШМ Ду65 Ру25 муфтовый Ст.20 редуц.</p><p>Кран шаровой 11Б27п1 Г/Г рычаг Ду15&nbsp;</p><p>Кран шаровой 11Б27п1 Г/Г рычаг Ду20&nbsp;</p><p>Кран шаровой 11Б27п1 Г/Г рычаг Ду25&nbsp;</p><p>Кран шаровой 11Б27п1 Г/Г рычаг Ду32</p><p>Кран шаровой 11Б27п1 Г/Г рычаг Ду40&nbsp;</p><p>Кран шаровой 11Б27п1 Г/Г рычаг Ду50&nbsp;</p><p>Кран шаровой ALSO КШМ Ду40 Ру40 муфтовый Ст.20</p><p>Кран шаровой ALSO КШМ Ду50 Ру40 муфтовый Ст.20 редуц.</p><p>Кран шаровой ALSO КШМ Ду65 Ру25 муфтовый Ст.20 редуц.</p><p>Кран шаровой ALSO КШФ Ду25 Ру40 фл. Ст.20 редуц. L=140мм</p><p>Кран шаровой ALSO КШФ Ду40 Ру40 муфтовый Ст.20</p><p>Кран шаровой ALSO КШФ Ду50 Ру40 фл. Ст.20 редуц. L=180мм</p><p>Кран шаровой ALSO КШФ Ду50 Ру40 фл. Ст.20 с КОФ</p><p>Кран шаровой ALSO КШФ Ду65 Ру16&nbsp;</p><p>Кран шаровой ALSO КШФ Ду65 Ру25 фл. Ст.20&nbsp;</p><p>Кран шаровой фланцевый КШФ Ду50 Ру16 с КОФ</p><p>Кран шаровый ALSO КШФ Ду 100 Ру 16 фл. Ст.20 редуц. L=180мм</p><p>Кран шаровый ALSO КШФ Ду 100 Ру 16 фл. Ст.20 редуц. L=230мм</p><p>Кран шаровый ALSO КШФ Ду 50 Ру 40 фл. Ст.20 редуц. L=180мм</p><p><br></p><p>Крестовик 65х210</p><p>Крестовина 65х210</p><p><br></p><p><span style=\"font-size: 14px; line-height: 1.5;\">Ответный фланец на ЗПРМ 100х400</span><br></p><p><br></p><p>Отвод к/з 108*3,5-4 ГОСТ 17375-2001</p><p>Отвод к/з 159*4*4,5 ГОСТ 17375-2001</p><p>Отвод к/з 159х4-4,5 ГОСТ 17375-2001</p><p>Отвод к/з 159х4,5-5 ГОСТ 17375-2001</p><p>Отвод к/з 219х5-6 ГОСТ 17375-2001</p><p>Отвод к/з 273*6-8 ГОСТ 17375-2001&nbsp;</p><p>Отвод к/з 325х7-8 ГОСТ 17375-2001</p><p>Отвод к/з 45*2.5-3 ГОСТ 17375-2001</p><p>Отвод к/з 57х2,5-3.5 ГОСТ 17375-2001&nbsp;</p><p>Отвод к/з 57х3-3.5 ГОСТ 17375-2001&nbsp;</p><p>Отвод к/з 76*3-4 ГОСТ 17375-2001</p><p>Отвод ст.20 57х3.5 90гр. ГОСТ 17375-01</p><p>Отвод ст.90- 57 ГОСТ 17375-2001</p><p>Отвод ст.90-219*5 ГОСТ17375-2001</p>",
+          "text3": "<p>Кран 11б18бк Ду15 Ру16 М20х1,5 с ручкой</p><p>Кран 11б18бк/11б38бк Ду15 Ру16 М20х1,5 с фл.</p><p>Кран 11Б27п1 ДУ15 РУ16 рычаг&nbsp;</p><p><br></p><p>Переход на шланг из стал. ВГП (резьба-ерш) Ду-15</p><p>Переход на шланг из стал. ВГП (резьба-ерш) Ду-20</p><p>Переход на шланг из стал. ВГП (резьба-ерш) Ду-40</p><p>Переход на шланг из стал. ВГП (резьба/ерш) Ду-25</p><p><br></p><p>Резьба ст. правая Ду 15 ГОСТ</p><p>Резьба ст. правая Ду 20 ГОСТ</p><p>Резьба ст. правая Ду 32 ГОСТ</p><p>Резьба ст. правая Ду 40 ГОСТ</p><p>Резьба ст. правая Ду15 ГОСТ</p><p>Резьба ст. правая Ду25 ГОСТ</p><p>Резьба ст. правая Ду50 ГОСТ&nbsp;</p><p>Резьба ст.правая Ду25 ГОСТ</p><p><br></p><p>Сгон 15 ГОСТ 8969-75</p><p>Сгон 20 ГОСТ 8969-75</p><p>Сгон 25 ГОСТ 8969-75</p><p>Сгон 32 ГОСТ 8969-75</p><p>Сгон 40 ГОСТ 8969-75</p><p>Сгон 40 Резьба ст. правая&nbsp;</p><p>Сгон 50 ГОСТ 8969-75</p><p>Сгон резьба-ерш Ду15</p><p>Сгон резьба-резьба Ду 15&nbsp;</p><p>Сгон резьба-резьба Ду 20</p><p>Сгон резьба-сварка Ду 15</p><p><br></p><p>Труба ПП Политэк 110х0,5м (2,7 мм)</p><p>Труба ПП Политэк 110х1.0</p><p>Труба ПП Политэк 110х1м (2,7 мм)</p><p>Труба ПП Политэк 50х1м (1,8 мм)</p><p>Труба ПП Политэк 50х2м (1,8 мм)</p><p>Труба СТЕКЛОВОЛ. 20 (PN20) MeerPlast</p><p>Труба СТЕКЛОВОЛ. 25 (PN20) MeerPlast</p><p>Труба СТЕКЛОВОЛ. 32 (PN20) MeerPlast</p><p>Труба СТЕКЛОВОЛ. 40 (PN20) MeerPlast</p><p><br></p><p>Труба СТЕКЛОВОЛ. 50 (PN20) MeerPlast</p><p>Фланец 1-150-10  ГОСТ</p><p>Фланец 1-150-16  ГОСТ</p><p>Фланец 1-25-10 ГОСТ 12820-80</p><p>Фланец 1-25-16 ГОСТ 12820-80</p><p>Фланец 1-250-10 ГОСТ 12820-80</p><p>Фланец 1-32-10 ГОСТ 12820-80</p><p>Фланец 1-400-10 ГОСТ 12820-80</p><p>Фланец 100-10 атм.</p><p>Фланец 100-10 ГОСТ 122820-80</p><p>Фланец 100-16 атм.</p><p>Фланец 125-10 атм.</p><p>Фланец 15-16 атм.</p><p>Фланец 150-10 атм.</p><p>Фланец 150-10 ГОСТ 122820-80</p><p>Фланец 150-16 атм.</p><p>Фланец 20-10 атм.</p><p>Фланец 200-10 атм.</p><p>Фланец 200-16 атм.</p><p>Фланец 25-10 ГОСТ 122820-80</p><p>Фланец 25-16 атм.</p><p>Фланец 250-10 атм.</p><p>Фланец 250-10 атм. имп.</p><p>Фланец 250-16 атм.имп</p><p>Фланец 300-10 атм.</p><p>Фланец 32-10 атм.</p><p>Фланец 400х10</p><p>Фланец 50-16 атм.</p><p>Фланец 50*10</p><p>Фланец 65-10 атм.</p><p>Фланец 80-10 атм.</p><p>Фланец 80-16 атм.</p><p>Фланец Ду15 Ру10&nbsp;</p><p>Фланец Ду200 Ру10 ГОСТ 12820-80</p><p>Фланец Ду25 Ру10&nbsp;</p><p>Фланец Ду250 Ру10 ГОСТ 12820</p><p>Фланец Ду32 Ру10</p><p>Фланец Ду400 Ру10&nbsp;</p><p>Фланец Ду50 Ру10</p><p>Фланец на ЗПРМ 100х400</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
+        }
+      ]
+    },
+    "Poliuretan.html": {
+      "settings": {
+        "title": "Изделия из полеуретана",
+        "meta_descr": "Изделия из полеуретана",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#475577!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-x",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "height": 128,
+              "alt": "Бурснаб",
+              "link": "фуаыуаы",
+              "title": "Бурснаб2",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">О компании</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials3-2\">Услуги</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-13\" aria-expanded=\"false\">Каталог</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#contacts2-14\" aria-expanded=\"false\">Контакты</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Документация</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-y",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "&nbsp; Copyright (c)"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_styles": {
+            "P": {
+              "font-size": "14px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "text-align": "left"
+            },
+            "BLOCKQUOTE": {
+              "font-size": "12px"
+            },
+            "PRE": {
+              "font-size": "10px"
+            }
+          },
+          "_anchor": "content7-z",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text1": "<p>Бочонок 15 гост 6357-81&nbsp;</p><p>Бочонок 20 гост 6357-81&nbsp;</p><p>Бочонок 25 гост 6357-81&nbsp;</p><p><br></p><p>62-65-050 Шар, D=50.</p><p>62-80-050 Шар, D=50.</p><p><br></p><p>Вставка № 4 в сборе КГОМ 500-01 (НКТ-73)</p><p>Вставка № 4 манжета сменная промывочная КГОМ 502-01 для НКТ-73&nbsp;</p><p>Вставка №1 КГОМ.200</p><p>Вставка №2 1КГОМ.300&nbsp;</p><p>Вставка №2 КГОМ.300 трубно-кабельная</p><p><br></p><p><br></p><p><br></p>",
+          "text2": "<p><span style=\"line-height: 1.5;\">Дроссель регулируемый ДР 65x210с КОФ \"Корвет\"</span><br></p><p><br></p><p><br></p><p><br></p><p><span style=\"font-size: 14px; line-height: 1.5;\">Диафрагма гидроциклона ИГ 45М.01.00.004 &nbsp;</span><br></p><p><br></p><p>Конус гидроциклона ИГ 45М.01.00.002&nbsp;</p><p>Конусная насадка на ИГ-45</p><p><br></p><p>Насадка конусная песковая (полиуретан)</p><p>Насадка песковая 98*60*40*9</p><p><br></p><p>Улитка гидроциклона ИГ 45М.01.00.001&nbsp;</p><p><br></p><p><br></p>",
+          "text3": "<p>Кран 11б18бк Ду15 Ру16 М20х1,5 с ручкой</p><p>Кран 11б18бк/11б38бк Ду15 Ру16 М20х1,5 с фл.</p><p>Кран 11Б27п1 ДУ15 РУ16 рычаг&nbsp;</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
+        }
+      ]
+    },
+    "Keys.html": {
+      "settings": {
+        "title": "Ключи и зип",
+        "meta_descr": "Ключи и зип",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#475577!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-u",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "height": 128,
+              "alt": "Бурснаб",
+              "link": "фуаыуаы",
+              "title": "Бурснаб2",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">О компании</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials3-2\">Услуги</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-13\" aria-expanded=\"false\">Каталог</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#contacts2-14\" aria-expanded=\"false\">Контакты</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Документация</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-v",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "&nbsp; Copyright (c)"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_styles": {
+            "P": {
+              "font-size": "14px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "text-align": "left"
+            },
+            "BLOCKQUOTE": {
+              "font-size": "12px"
+            },
+            "PRE": {
+              "font-size": "10px"
+            }
+          },
+          "_anchor": "content7-w",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text1": "<p>Бочонок 15 гост 6357-81&nbsp;</p><p>Бочонок 20 гост 6357-81&nbsp;</p><p>Бочонок 25 гост 6357-81&nbsp;</p><p><br></p><p>31045 RIDGID Прямой трубный ключ на 60\" (1500 мм)</p><p>31315 RIDGID C-14 цепной ключ с цепью 460мм</p><p>31320 RIDGID C-18 цепной ключ д/больших нагрузок</p><p>62-65-050 Шар, D=50.</p><p>62-80-050 Шар, D=50.</p><p>RIDGID 18 Прямой трубный ключ до 2 1/2\" (76 мм), длинна 18\" (450 мм)</p><p>RIDGID 36\" Прямой ключ до 5\" (141 мм) длина 36\" (900 мм)</p><p>RIDGID верхняя щека 18\"</p><p>RIDGID Верхняя щека для 24\" прямого трубного ключа</p><p>RIDGID Верхняя щека для Е-36</p><p>RIDGID нижняя щека в комплекте со штифтом 18\"</p><p>RIDGID нижняя щека вкомплекте со штифтом 18\"</p><p>RIDGID Нижняя щека и штифт в сборе 36</p><p>RIDGID Нижняя щека с заклепкой для 24\" прямого трубного ключа</p><p>RIDGID Прямой трубный ключ 18\"</p><p>RIDGID Прямой трубный ключ 24\" (600 мм.)</p><p>RIDGID Прямой трубный ключ 36\"</p><p>RIDGID Прямой трубный ключ на 48\"(168мм)</p><p>RIDGID С-18 цепной ключ д/больших нагрузок</p><p>RIDGID Цепной ключ д/больших нагрузок С-36, 4 1/2</p><p>RIDGID Цепной ключ С-18 для больших нагрузок, 2 1/2</p><p>RIDGID Щека верхняя для прямого трубного ключа 48\"</p><p>RIDGID Щека нижняя и штифт в сборе для прямого трубного ключа 48\"</p><p><br></p><p>КГД 10х11 ТУ Ц 15хр.бцв.</p><p>КГД 10х12 ТУ Ц 15хр.бцв.</p><p>КГД 11х13 ТУ Ц 15хр.бцв.</p><p>КГД 12х13 ТУ Ц 15хр.бцв.</p><p>КГД 13х14 ТУ Ц 15хр.бцв.</p><p>КГД 13х15 ТУ Ц 15хр.бцв.</p><p>КГД 13х17 ТУ Ц 15хр.бцв.</p><p>КГД 14х15 ТУ Ц 15хр.бцв.</p><p>КГД 14х17 ТУ Ц 15хр.бцв.</p><p>КГД 16х17 ТУ Ц 15хр.бцв.</p><p>КГД 16х18 ТУ Ц 15хр.бцв.</p><p>КГД 17х19 ТУ Ц 15хр.бцв.</p><p>КГД 17х22 ТУ Ц 15хр.бцв.</p><p>КГД 19х22 ТУ Ц 15хр.бцв.</p><p>КГД 20х22 ТУ Ц 15хр.бцв.</p><p>КГД 22х24 ТУ Ц 15хр.бцв.</p><p>КГД 24х27 ТУ Ц 15хр.бцв.</p><p>КГД 27х30 ТУ Ц 15хр.бцв.</p><p>КГД 27х32 ТУ Ц 15хр.бцв.</p><p>КГД 30х32 ГОСТ Ц15хр.бцв.</p><p>КГД 32х36 ГОСТ Ц15хр.бцв.</p><p>КГД 36х41 ГОСТ Ц15хр.бцв.</p><p>КГД 41х46 ГОСТ Ц15хр.бцв.</p><p>КГД 46х50 ГОСТ Ц15хр.бцв.</p><p>КГД 50х55 ГОСТ Ц15хр.бцв.</p><p>КГД 7х8 ТУ Ц 15хр.бцв.</p><p>КГД 8х10 ТУ Ц 15хр.бцв.</p><p><br></p>",
+          "text2": "<p><span style=\"line-height: 1.5;\">Дроссель регулируемый ДР 65x210с КОФ \"Корвет\"</span><br></p><p><br></p><p><br></p><p><br></p><p>КГК 27х27 ТУ Ц 15хр. бцв.</p><p>КГК 30х30 ТУ Ц 15хр. бцв.</p><p>КГК 32х32 ТУ Ц 15хр. бцв.</p><p>КГК 36х36 ТУ Ц 15хр. бцв.</p><p>КГК 41х41 ТУ Ц 15хр. бцв.</p><p>КГК 46х46 ТУ Ц 15хр. бцв.</p><p>КГКУ 24 Ц15хр.бцв.</p><p>КГКУ 27 Ц15хр.бцв.</p><p>КГКУ 30 Ц15хр.бцв.</p><p>КГКУ 32 Ц15хр.бцв.</p><p>КГКУ 36 Ц15хр.бцв.</p><p>КГКУ 38 Ц15хр.бцв.</p><p>КГКУ 41 Ц15хр.бцв.</p><p>КГКУ 46 Ц15хр.бцв.</p><p>КГН 14х17 ТУ Ц 15хр.бцв.</p><p>КГН 17х19 ТУ Ц 15хр.бцв.</p><p>КГН 19х22 ТУ Ц 15хр.бцв.</p><p>КГН 22х24 ТУ Ц 15хр.бцв.</p><p>КГН 24х27 ТУ Ц 15хр.бцв.</p><p>КГН 27х30 ТУ Ц 15хр.бцв.</p><p>КГН 30х32 ТУ Ц 15хр.бцв.</p><p>КГН 32х36 ТУ Ц 15хр.бцв.</p><p>КГН 36х38 ТУ Ц 15хр.бцв.</p><p>КГН 36х41 ТУ Ц 15хр.бцв.</p><p>Кислота НТФ&nbsp;</p><p>Клапан - разрядник 2607.3040. 39.00.00СБ&nbsp;</p><p>Клапан - разрядник 4062.71.080</p><p>Клапан АКБ-3М2. 15-6.6</p><p>Клапан АКБ-3М2.15 1.4</p><p>Клапан АКБ-3М2.15-1.6.1</p><p>Клапан АКБ-3М2.15-1.6.2</p><p>Клапан запорный (вентиль) 15Б1п 15 Ci</p><p>Клапан запорный (вентиль) 15Б1п 25 Ci</p><p>Клапан запорный (вентиль) 15Б3р 15Сi</p><p>Клапан запорный (вентиль) 15Б3р 20Сi</p><p>Клапан запорный угловой STI 1/2\"</p><p>Клапан игольчатый под манометр со стяжной муфтой 15с54бкМ М20х1,5 (В)/М20х1,5 (Н) Ду15мм, Ру16МПа</p><p>Клапан К-10 ОЗНА</p><p>Клапан К-7</p><p>Клапан К-7 БРН-1</p><p>Клапан К-7 ОЗНА</p><p>Клапан обр.пруж. STI 25</p><p>Клапан обратный дисковый Ду25 Ру40 GENEBRE Италия</p><p>Клапан обратный КОБТ-108*35 3-86</p><p>Клапан обратный КОШ-105х35 З-86</p><p>Клапан отсечной ЗСК-15&nbsp;</p><p>Клапан отсечной ЗСК-15</p><p>Клапан предохранительный сб.00-23 (диафрагменный узел БРН в сборе)</p><p>Клапан разрядник 4062.71.070&nbsp;</p><p>Клапан-разрядник&nbsp;</p><p>Клапан-разрядник 2607.3040.02 (аналог 4062.71.080 со штуцерами)</p><p>Клапан-разрядник 2607.3040.39.00.00 (аналог НГК 02.20.00.000)</p><p>Клапанная пара ДЗУ-250 в сборе</p><p>Клинья ПКР в комплекте с плашками 127 мм</p><p>Клинья ПКР в комплекте с плашками 73 мм</p><p>Клинья ПКР в комплекте с плашками 89 мм</p><p><br></p>",
+          "text3": "<p>Кран 11б18бк Ду15 Ру16 М20х1,5 с ручкой</p><p>Кран 11б18бк/11б38бк Ду15 Ру16 М20х1,5 с фл.</p><p>Кран 11Б27п1 ДУ15 РУ16 рычаг&nbsp;</p><p><br></p><p>Ключ КТГУ-60</p><p>Ключ КТГУ-73</p><p>Ключ КТГУ-89</p><p>Ключ накидной одност.41 ударн</p><p>Ключ накидной одност.46 ударн</p><p>Ключ накидной ударный 30 мм</p><p>Ключ накидной ударный 32 мм</p><p>Ключ накидной ударный 36 мм</p><p>Ключ накидной ударный 41 мм</p><p>Ключ накидной ударный 46 мм</p><p>Ключ накидной ударный 50 мм</p><p>Ключ накидной ударный 55 мм</p><p>Ключ накидной ударный 60 мм</p><p>Ключ накидной ударный 65 мм</p><p>Ключ накидной ударный 70 мм</p><p>Ключ накидной ударный 75 мм</p><p>Ключ накидной ударный 80 мм</p><p>Ключ накидной ударный 85 мм</p><p>Ключ одношарнирный трубный КОТ 48-89</p><p>Ключ одношарнирный трубный КОТ 89-132</p><p>Ключ рожковый 32мм КГО одност. гол.упорн.цинк.(Камышин) L-170*63*12мм</p><p>Ключ рожковый 36мм КГО одност. гол.упорн.цинк.(Камышин) L-180*75*13,5мм</p><p>Ключ рожковый 41мм КГО одност. гол.упорн.цинк.(Камышин) L-190*85*15мм</p><p>Ключ рожковый 46*50мм КГД цинк.(Камышин) L-420*95/102*17мм 1,653кг</p><p>Ключ рожковый 50*55мм КГД оксид.(НИЗ) L-460*100/110*17,5мм&nbsp;</p><p>Ключ трубн. рычажный КТР-1 (НИЗ)</p><p>Ключ трубн. рычажный КТР-2 (НИЗ)</p><p>Ключ трубн. рычажный КТР-3 (НИЗ)</p><p>Ключ трубн. рычажный КТР-4 (НИЗ)</p><p>Ключ УМК 70-114</p><p>Ключ цепной КЦН-1 (с удлиненной цепью)</p><p>Ключ цепной КЦН-2</p><p>Ключ цепной КЦН-3</p><p>Ключ цепной КЦН-3&nbsp;</p><p>Ключ цепной облегченный КЦО-1</p><p><br></p><p><br></p><p>Сухари КТГУ 2,5</p><p>Сухарь АКБ</p><p>Сухарь АКБ 3М2.У21</p><p>Сухарь КМБ</p><p>Сухарь КТГУ 73</p><p>Сухарь КТГУ.ВМ.73.009-73,89</p><p>Сухарь УМК</p><p><br></p><p><br></p><p><br></p><p><br></p>"
+        }
+      ]
+    }
+  }
+}
