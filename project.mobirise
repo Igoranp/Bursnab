@@ -19,11 +19,14 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#f2f2f2"
+      ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 41,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 43,
+    "versionPublish": "4.3.2",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": ""
@@ -100,6 +103,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {
@@ -108,28 +117,25 @@
               "css": "'Montserrat', sans-serif"
             },
             "fontColor": "#efefef",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logotip1-157x128.png",
               "height": 128,
               "alt": "",
-              "link": "",
-              "title": "",
-              "linkInNewWindow": false
+              "link": "index.html",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
@@ -140,38 +146,92 @@
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#28324e"
             },
             ".mbr-section-lead": {
-              "color": "#28324e",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "text-align": "left"
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "text-align": "left",
+              "font-size": "30px"
+            },
+            ".mbr-section-lead B": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/i2-2000x1080.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.1",
             "overlayColor": "#2b0680",
-            "contentAlign": "left",
+            "overlayOpacity": "0.1"
+          },
+          "title": "СНАБЭКСПЕРТ",
+          "text": "<b>Дорогие друзья!\n<br>Мы рады приветствовать Вас на официальном </b><br><b>сайте ООО «СНАБЭКСПЕРТ». Наша компания </b><br><b> успешно осуществляет комплексное снабжение предприятий Самары и Самарской области. &nbsp;</b><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">Связаться с нами</a>   "
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".lead P": {
+              "font-size": "22px",
+              "text-align": "center",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".lead": {
+              "font-size": "20px",
+              "text-align": "center"
+            },
+            ".lead DIV": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "22px"
+            }
+          },
+          "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButton": true,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/backgr2-1000x540.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "title": "Бурснаб",
-          "text": "Основное направление деятельности компании - комплексная поставка промышленного и тд... оборудования предприятиям Деятельность сотрудников направлена на поставку высококачественного оборудования и оказание помощи в решении проблем, которые возникают в процессе развития бизнеса.&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Связаться с нами</a>   "
+          "title": "",
+          "text": "<p><i>Основное направление деятельности компании - комплексная поставка промышленного и иного оборудования предприятиям. </i></p><p><i>Деятельность сотрудников направлена на поставку высококачественного оборудования и оказание помощи в решении проблем, которые возникают в процессе развития бизнеса.</i></p><p><i>\n</i></p><div><i>&nbsp; &nbsp;Отношения как внутри Компании, так и с нашими Партнерами мы стараемся строить на принципах Доверия, Уважения и Эффективности. Надеемся, что каждый, посетивший наш сайт, найдет необходимую ему продукцию, а начав работать с нами, убедиться в качестве наших услуг, их своевременности, а также нашей профессиональной компетенции и возможности решить Ваши самые сложные задачи с взаимной выгодой. \n</i></div><div><i>&nbsp; &nbsp; Мы живем в постоянно меняющемся мире, где со скоростью света возникают новые идеи, задачи, формируются новые взгляды.\n</i></div><div><i>&nbsp; &nbsp; Мы верим, что работая вместе, мы сможем решить любую даже самую сложную задачу и найдем подход к самому притязательному Партнеру!\n</i></div><div><br></div><p></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE ALL TEMPLATES</a>",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-16"
         },
         {
           "_name": "footer1",
@@ -180,13 +240,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "&nbsp; Copyright (c)"
         },
@@ -206,7 +266,7 @@
           "_name": "testimonials3",
           "testimonial": [
             {
-              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "text": "<p>Основное направление деятельности компании - комплексная поставка промышленного и иного оборудования предприятиям.\r</p><p>Деятельность сотрудников направлена на поставку высококачественного оборудования и оказание помощи в решении проблем, которые возникают в процессе развития бизнеса.</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -216,11 +276,11 @@
                   "active": true
                 }
               },
-              "authorName": "Abanoub S.",
+              "authorName": "",
               "authorBio": "User"
             },
             {
-              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "text": "<p>Отношения как внутри Компании, так и с нашими Партнерами мы стараемся строить на принципах Доверия, Уважения и Эффективности. Надеемся, что каждый, посетивший наш сайт, найдет необходимую ему продукцию, а начав работать с нами, убедиться в качестве наших услуг, их своевременности, а также нашей профессиональной компетенции и возможности решить Ваши самые сложные задачи с взаимной выгодой.</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
@@ -230,11 +290,11 @@
                   "active": true
                 }
               },
-              "authorName": "Suffian A.",
+              "authorName": "",
               "authorBio": "User"
             },
             {
-              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "text": "<p>Ваши самые сложные задачи с взаимной выгодой.\r</p><p>&nbsp; &nbsp; Мы живем в постоянно меняющемся мире, где со скоростью света возникают новые идеи, задачи, формируются новые взгляды.\r</p><p>&nbsp; &nbsp; Мы верим, что работая вместе, мы сможем решить любую даже самую сложную задачу и найдем подход к самому притязательному Партнеру!\r</p><p><br></p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -244,28 +304,28 @@
                   "active": true
                 }
               },
-              "authorName": "Jhollman C.",
+              "authorName": "",
               "authorBio": "User"
             }
           ],
           "_anchor": "testimonials3-2",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": 3,
+            "showTitle": true,
+            "showSubtitle": false,
             "showImages": false,
             "showName": true,
             "showBio": false,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/slide-2000x1500.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": false
+            "overlayOpacity": 0.5
           },
           "title": "Что мы предлогаем",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -277,26 +337,26 @@
           "_name": "features3",
           "_anchor": "features3-13",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/2-2000x1000.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": "0.2",
-            "overlayColor": "#222",
-            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2-2000x1000.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.2"
           },
           "media1": {
             "image": {
@@ -416,13 +476,13 @@
             "paddingTop": "4",
             "paddingBottom": "4",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/5-2000x1332.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
             "googleMap": {
               "address": "Самара Чернореченская 50 ",
               "placeId": "ChIJ7WB3v4geZkERL791tN4RUmI",
@@ -430,8 +490,8 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>Киевская<br><br><br>\n<strong>Contacts</strong><br><strong><br></strong><strong><br></strong>Email: hapinas@yandex.ru<br>\nТелефоны:<br>8 927 207 28 89<br>Хапин Александр&nbsp;<br><br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a class=\"text-white\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>"
+          "text1": "<strong>Адрес:</strong><br>г. Самара, ул. Киевская 50 офис<br><br><br>\n<strong>Контакты:</strong><br><strong><br></strong><strong><br></strong>Тел: 8(846)341-44-76, 8(846)341-44-79\n<br>                                  E-mail: snabexpert63@yandex.ru\n<br><br>                                 Директор: Кравцов Руслан Амирович\n<br><br>                                 E-mail: kravcov.ra@yandex.ru&nbsp;<br>",
+          "text2": "<ul><li></li></ul>"
         }
       ]
     },
@@ -505,6 +565,12 @@
           "_name": "menu",
           "_anchor": "menu-q",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {
@@ -513,28 +579,27 @@
               "css": "'Montserrat', sans-serif"
             },
             "fontColor": "#efefef",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logotip1-157x128.png",
               "height": 128,
-              "alt": "Бурснаб",
-              "link": "фуаыуаы",
-              "title": "Бурснаб2",
+              "alt": "",
+              "link": "index.html",
+              "title": "",
               "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "#top",
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "newWindow": false,
+              "active": true
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
@@ -547,13 +612,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "&nbsp; Copyright (c)"
         },
@@ -658,6 +723,12 @@
           "_name": "menu",
           "_anchor": "menu-x",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {
@@ -666,28 +737,27 @@
               "css": "'Montserrat', sans-serif"
             },
             "fontColor": "#efefef",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logotip1-157x128.png",
               "height": 128,
-              "alt": "Бурснаб",
-              "link": "фуаыуаы",
-              "title": "Бурснаб2",
+              "alt": "",
+              "link": "index.html",
+              "title": "",
               "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "#top",
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "newWindow": false,
+              "active": true
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
@@ -700,13 +770,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "&nbsp; Copyright (c)"
         },
@@ -811,6 +881,12 @@
           "_name": "menu",
           "_anchor": "menu-u",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {
@@ -819,28 +895,27 @@
               "css": "'Montserrat', sans-serif"
             },
             "fontColor": "#efefef",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2419209-103x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logotip1-157x128.png",
               "height": 128,
-              "alt": "Бурснаб",
-              "link": "фуаыуаы",
-              "title": "Бурснаб2",
+              "alt": "",
+              "link": "index.html",
+              "title": "",
               "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "#top",
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "newWindow": false,
+              "active": true
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
@@ -853,13 +928,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "&nbsp; Copyright (c)"
         },

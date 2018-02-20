@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
 
 
 
@@ -485,12 +488,33 @@ h6,
   background-color: #efefef;
 }
 #header1-1 .mbr-section-title {
-  color: #ffffff;
+  color: #28324e;
 }
 #header1-1 .mbr-section-lead {
-  color: #28324e;
-  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
   text-align: left;
+  font-size: 30px;
+}
+#header1-1 .mbr-section-lead B {
+  color: #ffffff;
+}
+#msg-box3-16 .mbr-section-title,
+#msg-box3-16 p {
+  color: #000;
+}
+#msg-box3-16 .lead P {
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+#msg-box3-16 .lead {
+  font-size: 20px;
+  text-align: center;
+}
+#msg-box3-16 .lead DIV {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px;
 }
 #testimonials3-2 .mbr-section-title {
   color: #efefef;
